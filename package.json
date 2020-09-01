@@ -1,0 +1,24 @@
+{
+  "name": "hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.0",
+    "@hapi/vision": "^6.0.1",
+    "axios": "^0.20.0",
+    "handlebars": "^4.7.6",
+    "hapi-pagination": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
